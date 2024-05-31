@@ -1,0 +1,173 @@
+.container {
+  width: 357px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  position: relative;
+  padding: 0px 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: none;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.image-container {
+  height: 60px;
+  width: 60px;
+}
+
+.status-icon {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(105, 222, 64);
+}
+
+.chatbot-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.status {
+  font-size: 15px;
+  line-height: 19px;
+  color: rgb(155, 166, 179);
+}
+
+.header-buttons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.body {
+  flex: 1;
+  background-color: rgb(234, 238, 243);
+  overflow-y: auto;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.bot-msg-caption {
+  display: flex;
+  gap: 4px;
+}
+
+.caption-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.caption-title {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.bot-msg-content {
+  padding: 16px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 8px;
+}
+
+.my-msg {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+.my-msg-caption {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.my-msg-content {
+  padding: 16px;
+  margin-top: 10px;
+  background-color: #ffd98d;
+  border-radius: 20px 20px 8px 20px;
+}
+
+.input-field-container {
+  flex: none;
+  height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  outline: 0;
+  border: 0;
+  flex: 1;
+  padding-right: 10px;
+}
+
+.buttons-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.attachment-container {
+  position: relative;
+  padding: 1;
+}
+
+.button-attachment {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-attachment {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 170px;
+  right: 30px;
+  padding: 4px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.menu-button:hover {
+  color: #006cff;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.button-sent {
+  width: 24px;
+  height: 24px;
+}
